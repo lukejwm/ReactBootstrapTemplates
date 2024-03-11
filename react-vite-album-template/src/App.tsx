@@ -1,7 +1,13 @@
+import Header from "./components/ui/Header";
+import Footer from "./components/ui/Footer";
+import Home from "./components/pages/Home";
+
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Header />
+      <Home />
+      <Footer />
     </>
   );
 }
